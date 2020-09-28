@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Item;
+namespace XeroPHP_VS\Models\Accounting\Item;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class Sale extends Remote\Model
 {

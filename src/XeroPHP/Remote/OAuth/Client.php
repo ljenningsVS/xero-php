@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Remote\OAuth;
+namespace XeroPHP_VS\Remote\OAuth;
 
-use XeroPHP\Helpers;
-use XeroPHP\Remote\OAuth\SignatureMethod\HMACSHA1;
-use XeroPHP\Remote\OAuth\SignatureMethod\PLAINTEXT;
-use XeroPHP\Remote\OAuth\SignatureMethod\RSASHA1;
-use XeroPHP\Remote\Request;
+use XeroPHP_VS\Helpers;
+use XeroPHP_VS\Remote\OAuth\SignatureMethod\HMACSHA1;
+use XeroPHP_VS\Remote\OAuth\SignatureMethod\PLAINTEXT;
+use XeroPHP_VS\Remote\OAuth\SignatureMethod\RSASHA1;
+use XeroPHP_VS\Remote\Request;
 
 /**
  * This is a class to manage a client OAuth session with the Xero APIs.
@@ -14,7 +14,7 @@ use XeroPHP\Remote\Request;
  * which comes in the recommended php developer kit.
  *
  * @author Michael Calcinai
- * @package XeroPHP\Remote\OAuth
+ * @package XeroPHP_VS\Remote\OAuth
  */
 class Client
 {

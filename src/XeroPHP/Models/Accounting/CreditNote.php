@@ -1,13 +1,13 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\PDFTrait;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\Invoice\LineItem;
-use XeroPHP\Models\Accounting\CreditNote\Allocation;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\PDFTrait;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\Invoice\LineItem;
+use XeroPHP_VS\Models\Accounting\CreditNote\Allocation;
 
 class CreditNote extends Remote\Model
 {

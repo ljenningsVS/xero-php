@@ -1,13 +1,13 @@
 <?php
 
-namespace XeroPHP;
+namespace XeroPHP_VS;
 
-use XeroPHP\Remote;
-use XeroPHP\Remote\Collection;
-use XeroPHP\Remote\OAuth\Client;
-use XeroPHP\Remote\Query;
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Remote\Collection;
+use XeroPHP_VS\Remote\OAuth\Client;
+use XeroPHP_VS\Remote\Query;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
 
 abstract class Application
 {
@@ -18,7 +18,7 @@ abstract class Application
             'core_version' => '2.0',
             'payroll_version' => '1.0',
             'file_version' => '1.0',
-            'model_namespace' => '\\XeroPHP\\Models'
+            'model_namespace' => '\\XeroPHP_VS\\Models'
         ],
         //OAuth config
         'oauth' => [
@@ -29,7 +29,7 @@ abstract class Application
             'access_token_path' => 'oauth/AccessToken'
         ],
         'curl' => [
-            CURLOPT_USERAGENT => 'XeroPHP',
+            CURLOPT_USERAGENT => 'XeroPHP_VS',
             CURLOPT_CONNECTTIMEOUT => 30,
             CURLOPT_TIMEOUT => 20,
             CURLOPT_SSL_VERIFYPEER => 2,

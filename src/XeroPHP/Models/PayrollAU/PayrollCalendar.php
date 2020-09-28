@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU;
+namespace XeroPHP_VS\Models\PayrollAU;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class PayrollCalendar extends Remote\Model
 {

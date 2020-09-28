@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Webhook;
+namespace XeroPHP_VS\Webhook;
 
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
 
 /**
  * Represents a single event within a webhook
@@ -11,7 +11,7 @@ use XeroPHP\Remote\URL;
 class Event
 {
     /**
-     * @var \XeroPHP\Webhook
+     * @var \XeroPHP_VS\Webhook
      */
     private $webhook;
     /**
@@ -46,9 +46,9 @@ class Event
     /**
      * Validates the event payload is correctly formatted
      *
-     * @param \XeroPHP\Webhook $webhook
+     * @param \XeroPHP_VS\Webhook $webhook
      * @param array $event event details
-     * @throws \XeroPHP\Application\Exception if the provided payload is malformed
+     * @throws \XeroPHP_VS\Application\Exception if the provided payload is malformed
      */
     public function __construct($webhook, $event)
     {
@@ -65,7 +65,7 @@ class Event
 
         foreach ($fields as $required) {
             if (!isset($event[$required])) {
-                throw new \XeroPHP\Application\Exception("The event payload was malformed; missing required field $required");
+                throw new \XeroPHP_VS\Application\Exception("The event payload was malformed; missing required field $required");
             }
 
             $this->{$required} = $event[$required];
@@ -73,7 +73,7 @@ class Event
     }
 
     /**
-     * @return \XeroPHP\Webhook
+     * @return \XeroPHP_VS\Webhook
      */
     public function getWebhook()
     {
@@ -136,10 +136,10 @@ class Event
     public function getEventClass()
     {
         if ($this->getEventCategory() == 'INVOICE') {
-            return \XeroPHP\Models\Accounting\Invoice::class;
+            return \XeroPHP_VS\Models\Accounting\Invoice::class;
         }
         if ($this->getEventCategory() == 'CONTACT') {
-            return \XeroPHP\Models\Accounting\Contact::class;
+            return \XeroPHP_VS\Models\Accounting\Contact::class;
         }
 
         return null;
@@ -164,9 +164,9 @@ class Event
     /**
      * Fetches the resource and, if possible, loads it into it's respective model class
      *
-     * @param  \XeroPHP\Application $application an optional application instance to use to retrieve the remote resource.
+     * @param  \XeroPHP_VS\Application $application an optional application instance to use to retrieve the remote resource.
      *                              Useful if you have separate instances with different oauth tokens based on the tenant
-     * @return \XeroPHP\Remote\Model|array If the event category is known, returns the model, otherwise, returns the resource as an array
+     * @return \XeroPHP_VS\Remote\Model|array If the event category is known, returns the model, otherwise, returns the resource as an array
      */
     public function getResource($application = null)
     {

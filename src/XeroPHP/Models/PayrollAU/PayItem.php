@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU;
+namespace XeroPHP_VS\Models\PayrollAU;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollAU\PayItem\EarningsRate;
-use XeroPHP\Models\PayrollAU\PayItem\DeductionType;
-use XeroPHP\Models\PayrollAU\PayItem\LeaveType;
-use XeroPHP\Models\PayrollAU\PayItem\ReimbursementType;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollAU\PayItem\EarningsRate;
+use XeroPHP_VS\Models\PayrollAU\PayItem\DeductionType;
+use XeroPHP_VS\Models\PayrollAU\PayItem\LeaveType;
+use XeroPHP_VS\Models\PayrollAU\PayItem\ReimbursementType;
 
 class PayItem extends Remote\Model
 {

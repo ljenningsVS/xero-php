@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Employee;
+namespace XeroPHP_VS\Models\PayrollAU\Employee;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollAU\PayItem;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollAU\PayItem;
 
 class LeaveBalance extends Remote\Model
 {

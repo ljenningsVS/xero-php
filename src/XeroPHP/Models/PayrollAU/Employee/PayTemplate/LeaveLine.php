@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Employee\PayTemplate;
+namespace XeroPHP_VS\Models\PayrollAU\Employee\PayTemplate;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class LeaveLine extends Remote\Model
 {

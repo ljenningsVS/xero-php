@@ -1,15 +1,15 @@
 <?php
 
-namespace XeroPHP;
+namespace XeroPHP_VS;
 
-use XeroPHP\Models\Accounting\TrackingCategory;
+use XeroPHP_VS\Models\Accounting\TrackingCategory;
 
 /**
  * Unfortunate class for methods that don't really have a home.
  * This is to avoid external dependencies.
  *
  * Class Helpers
- * @package XeroPHP
+ * @package XeroPHP_VS
  */
 class Helpers
 {

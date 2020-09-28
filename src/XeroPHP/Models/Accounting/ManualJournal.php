@@ -1,10 +1,10 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Models\Accounting\ManualJournal\JournalLine;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Models\Accounting\ManualJournal\JournalLine;
 
 class ManualJournal extends Remote\Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\ManualJournal;
+namespace XeroPHP_VS\Models\Accounting\ManualJournal;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\TrackingCategory;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\TrackingCategory;
 
 class JournalLine extends Remote\Model
 {

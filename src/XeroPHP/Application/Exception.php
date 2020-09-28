@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Application;
+namespace XeroPHP_VS\Application;
 
 class Exception extends \Exception
 {

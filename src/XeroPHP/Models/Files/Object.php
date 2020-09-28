@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Models\Files;
+namespace XeroPHP_VS\Models\Files;
 
 class Object
 {

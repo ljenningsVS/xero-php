@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Application;
+namespace XeroPHP_VS\Application;
 
-use XeroPHP\Application;
+use XeroPHP_VS\Application;
 
 class PartnerApplication extends Application
 {

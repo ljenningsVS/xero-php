@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
 class TaxType
 {

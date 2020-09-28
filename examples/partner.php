@@ -1,8 +1,8 @@
 <?php
 
-use XeroPHP\Application\PartnerApplication;
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
+use XeroPHP_VS\Application\PartnerApplication;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
 
 // Start a session for the oauth session storage
 session_start();
@@ -14,7 +14,7 @@ $config = [
         'consumer_key' => 'k',
         'consumer_secret' => 's',
         'rsa_private_key' => 'file://certs/privatekey.pem',
-        'signature_location' => \XeroPHP\Remote\OAuth\Client::SIGN_LOCATION_QUERY
+        'signature_location' => \XeroPHP_VS\Remote\OAuth\Client::SIGN_LOCATION_QUERY
     ],
     'curl' => [
         CURLOPT_CAINFO => 'certs/ca-bundle.crt'

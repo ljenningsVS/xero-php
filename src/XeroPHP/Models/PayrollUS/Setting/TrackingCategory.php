@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Setting;
+namespace XeroPHP_VS\Models\PayrollUS\Setting;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class TrackingCategory extends Remote\Model
 {

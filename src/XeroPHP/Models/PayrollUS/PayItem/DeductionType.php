@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\PayItem;
+namespace XeroPHP_VS\Models\PayrollUS\PayItem;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class DeductionType extends Remote\Model
 {

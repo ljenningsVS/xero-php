@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\BankTransfer;
+namespace XeroPHP_VS\Models\Accounting\BankTransfer;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class FromBankAccount extends Remote\Model
 {

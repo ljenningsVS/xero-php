@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Report;
+namespace XeroPHP_VS\Models\Accounting\Report;
 
 class ProfitLoss extends Report
 {

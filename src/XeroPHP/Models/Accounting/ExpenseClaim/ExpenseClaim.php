@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\ExpenseClaim;
+namespace XeroPHP_VS\Models\Accounting\ExpenseClaim;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\Payment;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\Payment;
 
 class ExpenseClaim extends Remote\Model
 {

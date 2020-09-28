@@ -1,13 +1,13 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS;
+namespace XeroPHP_VS\Models\PayrollUS;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollUS\PayItem\EarningsType;
-use XeroPHP\Models\PayrollUS\PayItem\BenefitType;
-use XeroPHP\Models\PayrollUS\PayItem\DeductionType;
-use XeroPHP\Models\PayrollUS\PayItem\ReimbursementType;
-use XeroPHP\Models\PayrollUS\PayItem\TimeOffType;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollUS\PayItem\EarningsType;
+use XeroPHP_VS\Models\PayrollUS\PayItem\BenefitType;
+use XeroPHP_VS\Models\PayrollUS\PayItem\DeductionType;
+use XeroPHP_VS\Models\PayrollUS\PayItem\ReimbursementType;
+use XeroPHP_VS\Models\PayrollUS\PayItem\TimeOffType;
 
 class PayItem extends Remote\Model
 {

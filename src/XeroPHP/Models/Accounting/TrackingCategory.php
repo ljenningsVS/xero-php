@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\TrackingCategory\TrackingOption;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\TrackingCategory\TrackingOption;
 
 class TrackingCategory extends Remote\Model
 {

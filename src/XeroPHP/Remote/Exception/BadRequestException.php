@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Remote\Exception;
+namespace XeroPHP_VS\Remote\Exception;
 
-use XeroPHP\Remote\Exception;
-use XeroPHP\Remote\Response;
+use XeroPHP_VS\Remote\Exception;
+use XeroPHP_VS\Remote\Response;
 
 class BadRequestException extends Exception
 {

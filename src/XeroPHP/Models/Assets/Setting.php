@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Assets;
+namespace XeroPHP_VS\Models\Assets;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class Setting extends Remote\Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\HistoryTrait;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\HistoryTrait;
 
 class Payment extends Remote\Model
 {

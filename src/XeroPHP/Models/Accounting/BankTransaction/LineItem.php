@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\BankTransaction;
+namespace XeroPHP_VS\Models\Accounting\BankTransaction;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\TrackingCategory;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\TrackingCategory;
 
 class LineItem extends Remote\Model
 {

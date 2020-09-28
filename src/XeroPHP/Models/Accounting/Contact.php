@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\Contact\ContactPerson;
-use XeroPHP\Models\Accounting\Organisation\PaymentTerm;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\Contact\ContactPerson;
+use XeroPHP_VS\Models\Accounting\Organisation\PaymentTerm;
 
 class Contact extends Remote\Model
 {

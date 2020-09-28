@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Prepayment;
+namespace XeroPHP_VS\Models\Accounting\Prepayment;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\Invoice;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\Invoice;
 
 class Allocation extends Remote\Model
 {

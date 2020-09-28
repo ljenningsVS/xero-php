@@ -1,11 +1,11 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Employee;
+namespace XeroPHP_VS\Models\PayrollAU\Employee;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollAU\Payslip\EarningsLine;
-use XeroPHP\Models\PayrollAU\Payslip\DeductionLine;
-use XeroPHP\Models\PayrollAU\Payslip\ReimbursementLine;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollAU\Payslip\EarningsLine;
+use XeroPHP_VS\Models\PayrollAU\Payslip\DeductionLine;
+use XeroPHP_VS\Models\PayrollAU\Payslip\ReimbursementLine;
 
 class OpeningBalance extends Remote\Model
 {

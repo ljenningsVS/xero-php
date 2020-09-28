@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
-class Exception extends \XeroPHP\Exception
+class Exception extends \XeroPHP_VS\Exception
 {
     //
 }

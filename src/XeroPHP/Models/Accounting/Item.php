@@ -1,11 +1,11 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\Item\Purchase;
-use XeroPHP\Models\Accounting\Item\Sale;
-use XeroPHP\Traits\HistoryTrait;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\Item\Purchase;
+use XeroPHP_VS\Models\Accounting\Item\Sale;
+use XeroPHP_VS\Traits\HistoryTrait;
 
 class Item extends Remote\Model
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\SuperFund;
+namespace XeroPHP_VS\Models\PayrollAU\SuperFund;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class SuperFund extends Remote\Model
 {

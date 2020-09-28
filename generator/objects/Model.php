@@ -1,8 +1,8 @@
 <?php
 
-use XeroPHP\Helpers;
-use XeroPHP\Remote\Model;
-use XeroPHP\Remote\Request;
+use XeroPHP_VS\Helpers;
+use XeroPHP_VS\Remote\Model;
+use XeroPHP_VS\Remote\Request;
 
 class Model implements ParsedObjectInterface
 {

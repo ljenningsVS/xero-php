@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Contact;
+namespace XeroPHP_VS\Models\Accounting\Contact;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class ContactPerson extends Remote\Model
 {

@@ -16,7 +16,7 @@ $xero_base_config = [
         'consumer_secret' => 's',
 
         //If you have issues passing the Authorization header, you can set it to append to the query string
-        //'signature_location'    => \XeroPHP\Remote\OAuth\Client::SIGN_LOCATION_QUERY
+        //'signature_location'    => \XeroPHP_VS\Remote\OAuth\Client::SIGN_LOCATION_QUERY
 
 
         //For certs on disk or a string - allows anything that is valid with openssl_pkey_get_(private|public)
@@ -26,7 +26,7 @@ $xero_base_config = [
 
     //These are raw curl options.  I didn't see the need to obfuscate these through methods
     'curl' => [
-        CURLOPT_USERAGENT => 'XeroPHP Test App',
+        CURLOPT_USERAGENT => 'XeroPHP_VS Test App',
 
         //Only for partner apps - unfortunately need to be files on disk only.
         //CURLOPT_CAINFO          => 'certs/ca-bundle.crt',

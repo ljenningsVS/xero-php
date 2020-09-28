@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS;
+namespace XeroPHP_VS\Models\PayrollUS;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class WorkLocation extends Remote\Model
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class LinkedTransaction extends Remote\Model
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\TaxRate;
+namespace XeroPHP_VS\Models\Accounting\TaxRate;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class TaxComponent extends Remote\Model
 {

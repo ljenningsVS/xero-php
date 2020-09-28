@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Employee;
+namespace XeroPHP_VS\Models\PayrollAU\Employee;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class SuperMembership extends Remote\Model
 {

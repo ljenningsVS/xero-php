@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Application;
+namespace XeroPHP_VS\Application;
 
-use XeroPHP\Application;
-use XeroPHP\Remote\OAuth\Client;
+use XeroPHP_VS\Application;
+use XeroPHP_VS\Remote\OAuth\Client;
 
 class PublicApplication extends Application
 {

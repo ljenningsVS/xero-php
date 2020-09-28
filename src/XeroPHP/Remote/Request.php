@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
-use XeroPHP\Application;
-use XeroPHP\Helpers;
+use XeroPHP_VS\Application;
+use XeroPHP_VS\Helpers;
 
 class Request
 {
@@ -31,7 +31,7 @@ class Request
     private $body;
 
     /**
-     * @var \XeroPHP\Remote\Response;
+     * @var \XeroPHP_VS\Remote\Response;
      */
     private $response;
 
@@ -158,7 +158,7 @@ class Request
     }
 
     /**
-     * @return \XeroPHP\Remote\Response
+     * @return \XeroPHP_VS\Remote\Response
      */
     public function getResponse()
     {

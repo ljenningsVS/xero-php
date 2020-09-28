@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\RepeatingInvoice\Schedule;
-use XeroPHP\Models\Accounting\RepeatingInvoice\LineItem;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\RepeatingInvoice\Schedule;
+use XeroPHP_VS\Models\Accounting\RepeatingInvoice\LineItem;
 
 class RepeatingInvoice extends Remote\Model
 {

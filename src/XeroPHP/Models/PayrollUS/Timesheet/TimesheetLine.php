@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Timesheet;
+namespace XeroPHP_VS\Models\PayrollUS\Timesheet;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class TimesheetLine extends Remote\Model
 {

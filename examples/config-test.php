@@ -5,7 +5,7 @@
  * This file is a rudimentary config testing script.
  */
 
-use XeroPHP\Application\PartnerApplication;
+use XeroPHP_VS\Application\PartnerApplication;
 
 require '../vendor/autoload.php';
 

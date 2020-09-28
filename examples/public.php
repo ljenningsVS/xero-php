@@ -1,8 +1,8 @@
 <?php
 
-use XeroPHP\Application\PublicApplication;
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
+use XeroPHP_VS\Application\PublicApplication;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
 
 // Start a session for the oauth session storage
 session_start();

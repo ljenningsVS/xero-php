@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS;
+namespace XeroPHP_VS\Models\PayrollUS;
 
 class PaystubDeductionLine
 {

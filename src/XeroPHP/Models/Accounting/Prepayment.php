@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\Prepayment\LineItem;
-use XeroPHP\Models\Accounting\Prepayment\Allocation;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\Prepayment\LineItem;
+use XeroPHP_VS\Models\Accounting\Prepayment\Allocation;
 
 class Prepayment extends Remote\Model
 {

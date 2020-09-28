@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Organisation;
+namespace XeroPHP_VS\Models\Accounting\Organisation;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class ExternalLink extends Remote\Model
 {

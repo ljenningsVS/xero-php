@@ -1,10 +1,10 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU;
+namespace XeroPHP_VS\Models\PayrollAU;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollAU\Setting\Account;
-use XeroPHP\Models\PayrollAU\Setting\TrackingCategory;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollAU\Setting\Account;
+use XeroPHP_VS\Models\PayrollAU\Setting\TrackingCategory;
 
 class Setting extends Remote\Model
 {

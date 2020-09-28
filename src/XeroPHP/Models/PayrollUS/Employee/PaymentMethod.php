@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Employee;
+namespace XeroPHP_VS\Models\PayrollUS\Employee;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class PaymentMethod extends Remote\Model
 {

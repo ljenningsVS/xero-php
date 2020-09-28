@@ -1,16 +1,16 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS;
+namespace XeroPHP_VS\Models\PayrollUS;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollUS\Employee\HomeAddress;
-use XeroPHP\Models\PayrollUS\Employee\MailingAddress;
-use XeroPHP\Models\PayrollUS\Employee\SalaryAndWage;
-use XeroPHP\Models\PayrollUS\Employee\WorkLocation;
-use XeroPHP\Models\PayrollUS\Employee\PaymentMethod;
-use XeroPHP\Models\PayrollUS\Employee\PayTemplate;
-use XeroPHP\Models\PayrollUS\Employee\OpeningBalance;
-use XeroPHP\Models\PayrollUS\Employee\TimeOffBalance;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollUS\Employee\HomeAddress;
+use XeroPHP_VS\Models\PayrollUS\Employee\MailingAddress;
+use XeroPHP_VS\Models\PayrollUS\Employee\SalaryAndWage;
+use XeroPHP_VS\Models\PayrollUS\Employee\WorkLocation;
+use XeroPHP_VS\Models\PayrollUS\Employee\PaymentMethod;
+use XeroPHP_VS\Models\PayrollUS\Employee\PayTemplate;
+use XeroPHP_VS\Models\PayrollUS\Employee\OpeningBalance;
+use XeroPHP_VS\Models\PayrollUS\Employee\TimeOffBalance;
 
 class Employee extends Remote\Model
 {

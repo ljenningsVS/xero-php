@@ -1,10 +1,10 @@
 <?php
 
-namespace XeroPHP\Traits;
+namespace XeroPHP_VS\Traits;
 
-use XeroPHP\Exception;
-use XeroPHP\Remote\URL;
-use XeroPHP\Remote\Request;
+use XeroPHP_VS\Exception;
+use XeroPHP_VS\Remote\URL;
+use XeroPHP_VS\Remote\Request;
 
 trait PDFTrait
 {
@@ -12,7 +12,7 @@ trait PDFTrait
      * Get the raw content of the resource's PDF file.
      *
      * @return string
-     * @throws \XeroPHP\Exception
+     * @throws \XeroPHP_VS\Exception
      */
     public function getPDF()
     {
@@ -26,7 +26,7 @@ trait PDFTrait
     /**
      * Build a request for the resources PDF.
      *
-     * @return \XeroPHP\Remote\Request
+     * @return \XeroPHP_VS\Remote\Request
      */
     protected function buildPDFRequest()
     {
@@ -43,7 +43,7 @@ trait PDFTrait
     /**
      * Build a URL to the resource's PDF.
      *
-     * @return \XeroPHP\Remote\URL
+     * @return \XeroPHP_VS\Remote\URL
      */
     protected function buildPDFURL()
     {
@@ -56,7 +56,7 @@ trait PDFTrait
     /**
      * Get the resource's application.
      *
-     * @return \XeroPHP\Application
+     * @return \XeroPHP_VS\Application
      */
     abstract protected function getApplication();
 

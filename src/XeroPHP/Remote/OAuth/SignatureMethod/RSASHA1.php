@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Remote\OAuth\SignatureMethod;
+namespace XeroPHP_VS\Remote\OAuth\SignatureMethod;
 
-use XeroPHP\Remote\OAuth\Exception;
+use XeroPHP_VS\Remote\OAuth\Exception;
 
 class RSASHA1 implements SignatureMethodInterface
 {

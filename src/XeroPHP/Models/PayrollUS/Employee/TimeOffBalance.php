@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Employee;
+namespace XeroPHP_VS\Models\PayrollUS\Employee;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollUS\PayItem;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollUS\PayItem;
 
 class TimeOffBalance extends Remote\Model
 {

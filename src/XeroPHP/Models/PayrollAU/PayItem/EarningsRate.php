@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\PayItem;
+namespace XeroPHP_VS\Models\PayrollAU\PayItem;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class EarningsRate extends Remote\Model
 {

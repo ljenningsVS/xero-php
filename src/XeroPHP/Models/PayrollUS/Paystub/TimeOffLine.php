@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Paystub;
+namespace XeroPHP_VS\Models\PayrollUS\Paystub;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class TimeOffLine extends Remote\Model
 {

@@ -3,12 +3,12 @@
 //This class is a pseudo-model to represent an attachment.  Can't be directly put ot fetched.
 
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Application;
-use XeroPHP\Remote\Model;
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
+use XeroPHP_VS\Application;
+use XeroPHP_VS\Remote\Model;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
 
 class Attachment extends Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\tests\Application;
+namespace XeroPHP_VS\tests\Application;
 
-use XeroPHP\Application\PartnerApplication;
-use XeroPHP\Application\PrivateApplication;
+use XeroPHP_VS\Application\PartnerApplication;
+use XeroPHP_VS\Application\PrivateApplication;
 
 class ApplicationTest extends \PHPUnit_Framework_TestCase
 {
@@ -20,7 +20,7 @@ class ApplicationTest extends \PHPUnit_Framework_TestCase
 
     public function test_allows_FQN_when_validating_model_class()
     {
-        $class = \XeroPHP\Models\Accounting\Invoice::class;
+        $class = \XeroPHP_VS\Models\Accounting\Invoice::class;
 
         $this->assertSame(
             $this->instance()->validateModelClass($class),
@@ -30,7 +30,7 @@ class ApplicationTest extends \PHPUnit_Framework_TestCase
 
     public function test_allows_FQN_beginning_with_backslash_when_validating_model_class()
     {
-        $class = '\XeroPHP\Models\Accounting\Invoice';
+        $class = '\XeroPHP_VS\Models\Accounting\Invoice';
 
         $this->assertSame(
             $this->instance()->validateModelClass($class),

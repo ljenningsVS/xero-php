@@ -1,10 +1,10 @@
 <?php
 
-namespace XeroPHP\Traits;
+namespace XeroPHP_VS\Traits;
 
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
-use XeroPHP\Exception;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
+use XeroPHP_VS\Exception;
 
 trait SendEmailTrait
 {
@@ -19,7 +19,7 @@ trait SendEmailTrait
          * Documentation here:
          * https://developer.xero.com/documentation/api/invoices#email
          *
-         * @var \XeroPHP\Remote\Model $this
+         * @var \XeroPHP_VS\Remote\Model $this
          */
         $uri = sprintf('%s/%s/Email', $this::getResourceURI(), $this->getGUID());
         

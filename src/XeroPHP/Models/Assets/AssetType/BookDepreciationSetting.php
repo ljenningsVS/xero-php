@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Assets\AssetType;
+namespace XeroPHP_VS\Models\Assets\AssetType;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class BookDepreciationSetting extends Remote\Model
 {

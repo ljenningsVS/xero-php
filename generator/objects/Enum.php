@@ -104,7 +104,7 @@ class Enum implements ParsedObjectInterface
     public function getConstantPrefix()
     {
         $sane_name = preg_replace('/\([\w\s]+\)/', '', $this->raw_name);
-        return \XeroPHP\Helpers::singularize(preg_replace('/(\b(code)s?)/i', '', trim($sane_name)));
+        return \XeroPHP_VS\Helpers::singularize(preg_replace('/(\b(code)s?)/i', '', trim($sane_name)));
     }
 
     /**

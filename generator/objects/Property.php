@@ -1,6 +1,6 @@
 <?php
 
-use XeroPHP\Remote\Model;
+use XeroPHP_VS\Remote\Model;
 
 class Property
 {
@@ -71,7 +71,7 @@ class Property
      */
     public function getNameSingular()
     {
-        return \XeroPHP\Helpers::singularize($this->getName());
+        return \XeroPHP_VS\Helpers::singularize($this->getName());
     }
 
     /**
@@ -159,7 +159,7 @@ class Property
     public function getTypeConstant()
     {
         //Ew.
-        $rc = new ReflectionClass('\\XeroPHP\\Remote\\Model');
+        $rc = new ReflectionClass('\\XeroPHP_VS\\Remote\\Model');
         foreach ($rc->getConstants() as $constant_name => $constant_value) {
             if ($constant_value === $this->getType()) {
                 return $constant_name;

@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\tests\Application;
+namespace XeroPHP_VS\tests\Application;
 
-use XeroPHP\Application\PublicApplication;
+use XeroPHP_VS\Application\PublicApplication;
 
 class PublicApplicationTest extends \PHPUnit_Framework_TestCase
 {

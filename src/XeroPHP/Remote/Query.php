@@ -1,16 +1,16 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
 use DateTime;
-use XeroPHP\Application;
+use XeroPHP_VS\Application;
 
 class Query
 {
     const ORDER_ASC = 'ASC';
     const ORDER_DESC = 'DESC';
 
-    /** @var  \XeroPHP\Application */
+    /** @var  \XeroPHP_VS\Application */
     private $app;
 
     private $from_class;

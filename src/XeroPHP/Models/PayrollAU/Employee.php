@@ -1,15 +1,15 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU;
+namespace XeroPHP_VS\Models\PayrollAU;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollAU\Employee\HomeAddress;
-use XeroPHP\Models\PayrollAU\Employee\TaxDeclaration;
-use XeroPHP\Models\PayrollAU\Employee\BankAccount;
-use XeroPHP\Models\PayrollAU\Employee\PayTemplate;
-use XeroPHP\Models\PayrollAU\Employee\OpeningBalance;
-use XeroPHP\Models\PayrollAU\Employee\LeaveBalance;
-use XeroPHP\Models\PayrollAU\Employee\SuperMembership;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollAU\Employee\HomeAddress;
+use XeroPHP_VS\Models\PayrollAU\Employee\TaxDeclaration;
+use XeroPHP_VS\Models\PayrollAU\Employee\BankAccount;
+use XeroPHP_VS\Models\PayrollAU\Employee\PayTemplate;
+use XeroPHP_VS\Models\PayrollAU\Employee\OpeningBalance;
+use XeroPHP_VS\Models\PayrollAU\Employee\LeaveBalance;
+use XeroPHP_VS\Models\PayrollAU\Employee\SuperMembership;
 
 class Employee extends Remote\Model
 {

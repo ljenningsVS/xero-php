@@ -1,13 +1,13 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
-use XeroPHP\Application;
-use XeroPHP\Helpers;
+use XeroPHP_VS\Application;
+use XeroPHP_VS\Helpers;
 
 /**
  * Class Model
- * @package XeroPHP\Remote
+ * @package XeroPHP_VS\Remote
  *
  * todo - at 2.x, move this into the root of the project and refer to it as a model.
  * Also make this an ArrayObject to simplify storage
@@ -90,7 +90,7 @@ abstract class Model implements ObjectInterface, \JsonSerializable, \ArrayAccess
     /**
      * Get the application.
      *
-     * @return \XeroPHP\Application
+     * @return \XeroPHP_VS\Application
      */
     protected function getApplication()
     {
@@ -329,7 +329,7 @@ abstract class Model implements ObjectInterface, \JsonSerializable, \ArrayAccess
                 return new \DateTime($value, $timezone);
 
             case self::PROPERTY_TYPE_OBJECT:
-                $php_type = sprintf('\\XeroPHP\\Models\\%s', $php_type);
+                $php_type = sprintf('\\XeroPHP_VS\\Models\\%s', $php_type);
                 /** @var self $instance */
                 $instance = new $php_type();
                 $instance->fromStringArray($value);

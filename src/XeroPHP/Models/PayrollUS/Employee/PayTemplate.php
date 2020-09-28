@@ -1,11 +1,11 @@
 <?php
 
-namespace XeroPHP\Models\PayrollUS\Employee;
+namespace XeroPHP_VS\Models\PayrollUS\Employee;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\PayrollUS\Paystub\DeductionLine;
-use XeroPHP\Models\PayrollUS\Paystub\ReimbursementLine;
-use XeroPHP\Models\PayrollUS\Paystub\BenefitLine;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\PayrollUS\Paystub\DeductionLine;
+use XeroPHP_VS\Models\PayrollUS\Paystub\ReimbursementLine;
+use XeroPHP_VS\Models\PayrollUS\Paystub\BenefitLine;
 
 class PayTemplate extends Remote\Model
 {

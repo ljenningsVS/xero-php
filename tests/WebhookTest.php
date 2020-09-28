@@ -1,11 +1,11 @@
 <?php
 
-namespace XeroPHP\tests;
+namespace XeroPHP_VS\tests;
 
-use XeroPHP\Application;
-use XeroPHP\Application\PrivateApplication;
-use XeroPHP\Webhook;
-use XeroPHP\Webhook\Event;
+use XeroPHP_VS\Application;
+use XeroPHP_VS\Application\PrivateApplication;
+use XeroPHP_VS\Webhook;
+use XeroPHP_VS\Webhook\Event;
 
 class WebhookTest extends \PHPUnit_Framework_TestCase
 {
@@ -33,7 +33,7 @@ class WebhookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \XeroPHP\Application\Exception
+     * @expectedException \XeroPHP_VS\Application\Exception
      */
     public function testMalformedPayload()
     {
@@ -42,7 +42,7 @@ class WebhookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \XeroPHP\Application\Exception
+     * @expectedException \XeroPHP_VS\Application\Exception
      */
     public function testPayloadMissingKeys()
     {

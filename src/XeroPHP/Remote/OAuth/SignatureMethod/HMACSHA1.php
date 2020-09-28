@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Remote\OAuth\SignatureMethod;
+namespace XeroPHP_VS\Remote\OAuth\SignatureMethod;
 
 class HMACSHA1 implements SignatureMethodInterface
 {

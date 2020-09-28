@@ -1,9 +1,9 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\RepeatingInvoice;
+namespace XeroPHP_VS\Models\Accounting\RepeatingInvoice;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\Organisation\PaymentTerm;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\Organisation\PaymentTerm;
 
 class Schedule extends Remote\Model
 {

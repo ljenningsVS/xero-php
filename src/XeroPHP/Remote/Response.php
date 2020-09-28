@@ -1,17 +1,17 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
 use SimpleXMLElement;
-use XeroPHP\Helpers;
-use XeroPHP\Remote\Exception\BadRequestException;
-use XeroPHP\Remote\Exception\InternalErrorException;
-use XeroPHP\Remote\Exception\NotAvailableException;
-use XeroPHP\Remote\Exception\NotFoundException;
-use XeroPHP\Remote\Exception\NotImplementedException;
-use XeroPHP\Remote\Exception\OrganisationOfflineException;
-use XeroPHP\Remote\Exception\RateLimitExceededException;
-use XeroPHP\Remote\Exception\UnauthorizedException;
+use XeroPHP_VS\Helpers;
+use XeroPHP_VS\Remote\Exception\BadRequestException;
+use XeroPHP_VS\Remote\Exception\InternalErrorException;
+use XeroPHP_VS\Remote\Exception\NotAvailableException;
+use XeroPHP_VS\Remote\Exception\NotFoundException;
+use XeroPHP_VS\Remote\Exception\NotImplementedException;
+use XeroPHP_VS\Remote\Exception\OrganisationOfflineException;
+use XeroPHP_VS\Remote\Exception\RateLimitExceededException;
+use XeroPHP_VS\Remote\Exception\UnauthorizedException;
 
 class Response
 {

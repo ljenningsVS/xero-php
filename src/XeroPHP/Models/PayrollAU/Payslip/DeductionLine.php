@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Payslip;
+namespace XeroPHP_VS\Models\PayrollAU\Payslip;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class DeductionLine extends Remote\Model
 {

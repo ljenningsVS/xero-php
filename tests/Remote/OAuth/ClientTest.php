@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Tests\Remote\OAuth;
+namespace XeroPHP_VS\Tests\Remote\OAuth;
 
-use XeroPHP\Application\PrivateApplication;
+use XeroPHP_VS\Application\PrivateApplication;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
 {

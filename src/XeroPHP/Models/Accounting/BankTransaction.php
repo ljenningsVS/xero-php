@@ -1,12 +1,12 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\BankTransaction\LineItem;
-use XeroPHP\Models\Accounting\BankTransaction\BankAccount;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\BankTransaction\LineItem;
+use XeroPHP_VS\Models\Accounting\BankTransaction\BankAccount;
 
 class BankTransaction extends Remote\Model
 {

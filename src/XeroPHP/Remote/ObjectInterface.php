@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Remote;
+namespace XeroPHP_VS\Remote;
 
 interface ObjectInterface
 {

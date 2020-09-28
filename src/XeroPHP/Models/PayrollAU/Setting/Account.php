@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\PayrollAU\Setting;
+namespace XeroPHP_VS\Models\PayrollAU\Setting;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class Account extends Remote\Model
 {

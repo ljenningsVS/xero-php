@@ -1,10 +1,10 @@
 <?php
 
-namespace XeroPHP\Models\Accounting\Journal;
+namespace XeroPHP_VS\Models\Accounting\Journal;
 
-use XeroPHP\Remote;
-use XeroPHP\Models\Accounting\TaxRate;
-use XeroPHP\Models\Accounting\TrackingCategory;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Models\Accounting\TaxRate;
+use XeroPHP_VS\Models\Accounting\TrackingCategory;
 
 class JournalLine extends Remote\Model
 {

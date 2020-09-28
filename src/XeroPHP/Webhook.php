@@ -1,13 +1,13 @@
 <?php
 
-namespace XeroPHP;
+namespace XeroPHP_VS;
 
-use XeroPHP\Helpers;
+use XeroPHP_VS\Helpers;
 
 class Webhook
 {
     /**
-     * @var \XeroPHP\Application
+     * @var \XeroPHP_VS\Application
      */
     private $application;
     /**
@@ -28,11 +28,11 @@ class Webhook
     private $webhookEvent;
 
     /**
-     * @param \XeroPHP\Application $application
+     * @param \XeroPHP_VS\Application $application
      * @param string $payload
      * @param string|null $event
      * @return void
-     * @throws \XeroPHP\Application\Exception
+     * @throws \XeroPHP_VS\Application\Exception
      */
     public function __construct($application, $payload, $event = null)
     {
@@ -59,7 +59,7 @@ class Webhook
     }
 
     /**
-     * @return \XeroPHP\Application
+     * @return \XeroPHP_VS\Application
      */
     public function getApplication()
     {
@@ -100,7 +100,7 @@ class Webhook
     }
 
     /**
-     * @return \XeroPHP\Webhook\Event[]
+     * @return \XeroPHP_VS\Webhook\Event[]
      */
     public function getEvents()
     {

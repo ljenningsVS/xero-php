@@ -22,7 +22,7 @@
 
     "autoload": {
         "psr-4": {
-            "XeroPHP\\": "src/XeroPHP/"
+            "XeroPHP_VS\\": "src/XeroPHP/"
         }
     }
 

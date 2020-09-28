@@ -1,14 +1,14 @@
 <?php
 
-namespace XeroPHP\Models\Accounting;
+namespace XeroPHP_VS\Models\Accounting;
 
-use XeroPHP\Remote;
-use XeroPHP\Exception;
-use XeroPHP\Traits\PDFTrait;
-use XeroPHP\Traits\AttachmentTrait;
-use XeroPHP\Traits\SendEmailTrait;
-use XeroPHP\Traits\HistoryTrait;
-use XeroPHP\Models\Accounting\Invoice\LineItem;
+use XeroPHP_VS\Remote;
+use XeroPHP_VS\Exception;
+use XeroPHP_VS\Traits\PDFTrait;
+use XeroPHP_VS\Traits\AttachmentTrait;
+use XeroPHP_VS\Traits\SendEmailTrait;
+use XeroPHP_VS\Traits\HistoryTrait;
+use XeroPHP_VS\Models\Accounting\Invoice\LineItem;
 
 class Invoice extends Remote\Model
 {
@@ -798,7 +798,7 @@ class Invoice extends Remote\Model
      * Retrieve the online invoice URL.
      *
      * @return string
-     * @throws \XeroPHP\Exception
+     * @throws \XeroPHP_VS\Exception
      */
     public function getOnlineInvoiceUrl()
     {
@@ -814,7 +814,7 @@ class Invoice extends Remote\Model
     /**
      * Build the online invoice request object.
      *
-     * @return \XeroPHP\Remote\Request
+     * @return \XeroPHP_VS\Remote\Request
      */
     protected function onlineInvoiceRequest()
     {
@@ -827,7 +827,7 @@ class Invoice extends Remote\Model
     /**
      * Build the online invoice URL object.
      *
-     * @return \XeroPHP\Remote\URL
+     * @return \XeroPHP_VS\Remote\URL
      */
     protected function onlineInvoiceRemoteUrl()
     {

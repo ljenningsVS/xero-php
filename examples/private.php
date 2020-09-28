@@ -1,6 +1,6 @@
 <?php
 
-use XeroPHP\Application\PrivateApplication;
+use XeroPHP_VS\Application\PrivateApplication;
 
 //These are the minimum settings - for more options, refer to examples/config.php
 $config = [

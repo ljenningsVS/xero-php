@@ -1,6 +1,6 @@
 <?php
 
-namespace XeroPHP\Models\Assets;
+namespace XeroPHP_VS\Models\Assets;
 
 class Overview
 {

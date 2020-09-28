@@ -1,6 +1,6 @@
 <?php
 
-use XeroPHP\Helpers;
+use XeroPHP_VS\Helpers;
 
 class API
 {

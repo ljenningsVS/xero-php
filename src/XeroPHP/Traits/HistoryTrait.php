@@ -1,19 +1,19 @@
 <?php
 
-namespace XeroPHP\Traits;
+namespace XeroPHP_VS\Traits;
 
-use XeroPHP\Models\Accounting\History;
-use XeroPHP\Remote\Request;
-use XeroPHP\Remote\URL;
-use XeroPHP\Exception;
-use XeroPHP\Helpers;
+use XeroPHP_VS\Models\Accounting\History;
+use XeroPHP_VS\Remote\Request;
+use XeroPHP_VS\Remote\URL;
+use XeroPHP_VS\Exception;
+use XeroPHP_VS\Helpers;
 
 trait HistoryTrait
 {
     public function addHistory(History $history)
     {
         /**
-         * @var \XeroPHP\Remote\Model $this
+         * @var \XeroPHP_VS\Remote\Model $this
          */
         $uri = sprintf('%s/%s/History', $this::getResourceURI(), $this->getGUID());
 
@@ -31,7 +31,7 @@ trait HistoryTrait
     public function getHistory()
     {
         /**
-         * @var \XeroPHP\Remote\Model $this
+         * @var \XeroPHP_VS\Remote\Model $this
          */
         if ($this->hasGUID() === false) {
             throw new Exception(

@@ -1,8 +1,8 @@
 <?php
 
-namespace XeroPHP\Models\Files;
+namespace XeroPHP_VS\Models\Files;
 
-use XeroPHP\Remote;
+use XeroPHP_VS\Remote;
 
 class File extends Remote\Model
 {
